@@ -35,7 +35,10 @@ export default function Topbar() {
         </button>
 
         <div className="flex items-center gap-2">
-          <img src={UserIcon} alt="User" className="w-8 h-8 rounded-full" />
+          <img 
+            src={UserIcon} 
+            alt="User" 
+            className="w-8 h-8 rounded-full border border-white shadow" />
           <span className="font-medium">Admin Kraken</span>
         </div>
       </div>
