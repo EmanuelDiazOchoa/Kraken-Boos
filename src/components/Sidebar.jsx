@@ -30,7 +30,7 @@ export default function Sidebar() {
               }`
             }
           >
-            Usuarios
+            Empleados
           </NavLink>
         </li>
         <li>

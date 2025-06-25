@@ -5,7 +5,7 @@ import DashboardPage from "./pages/DashboardPage";
 import ProvidersPage from "./pages/ProvidersPage";
 import SalesPage from "./pages/SalesPage";
 import SettingsPage from "./pages/SettingsPage";
-import UsersPage from "./pages/UsersPage";
+import EmployeesPage from "./pages/EmployeesPage";
 
 function App() {
   return (
@@ -17,14 +17,14 @@ function App() {
           <Topbar />
           <main className="flex-1 p-6">
 
-            {/* 🔎 TEST de dark mode */}
-            <div className="p-4 mb-4 rounded bg-gray-200 dark:bg-gray-700">
+            
+            {/* <div className="p-4 mb-4 rounded bg-gray-200 dark:bg-gray-700">
               Este bloque cambia con el modo 🌗
-            </div>
+            </div> */}
 
             <Routes>
               <Route path="/" element={<DashboardPage />} />
-              <Route path="/usuarios" element={<UsersPage />} />
+              <Route path="/empleados" element={<EmployeesPage />} />
               <Route path="/proveedores" element={<ProvidersPage />} />
               <Route path="/ventas" element={<SalesPage />} />
               <Route path="/configuracion" element={<SettingsPage />} />
