@@ -1,3 +1,3 @@
-export default function UsersPage() {
-  return <h1 className="text-3xl font-bold">Gestión de Usuarios</h1>;
+export default function EmployessPage() {
+  return <h1 className="text-3xl font-bold">Gestión de Empleados</h1>;
 }
