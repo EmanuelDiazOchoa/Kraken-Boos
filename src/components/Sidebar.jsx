@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function Sidebar() {
   return (
     <div className="w-64 h-screen bg-violet-900 text-white dark:bg-gray-800 dark:text-gray-200 p-6 space-y-6">
-      <h2 className="text-2xl font-extrabold tracking-wide">Kraken</h2>
+      {/* <h2 className="text-2xl font-extrabold tracking-wide">Kraken</h2> */}
       <ul className="space-y-2">
         <li>
           <NavLink
@@ -21,7 +21,7 @@ export default function Sidebar() {
         </li>
         <li>
           <NavLink
-            to="/usuarios"
+            to="/empleados"
             className={({ isActive }) =>
               `block rounded p-2 transition-colors ${
                 isActive
