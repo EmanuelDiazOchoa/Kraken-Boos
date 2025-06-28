@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap');
 @import "tailwindcss";
 
 html {
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  @apply font-sans;
 }

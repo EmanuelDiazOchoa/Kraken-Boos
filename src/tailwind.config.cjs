@@ -1,9 +1,14 @@
-// tailwind.config.js
 module.exports = {
-  darkMode: "class",
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx}",
+  ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['"Source Sans 3"', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
-};
+}
