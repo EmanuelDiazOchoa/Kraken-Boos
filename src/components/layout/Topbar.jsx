@@ -1,6 +1,6 @@
 import React from "react";
-import UserIcon from "../assets/usericon.png";
-import Kraken from "../assets/kraken.png";
+import UserIcon from "@/assets/usericon.png";
+import Kraken from "@/assets/kraken.png";
 
 export default function Topbar() {
   return (

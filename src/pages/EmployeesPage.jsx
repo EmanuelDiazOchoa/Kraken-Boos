@@ -1,7 +1,7 @@
 // src/pages/EmployeesPage.jsx
 import React from "react";
-import EmployeeTable from "@/employees/EmployeeTable";
-import AttendanceSheet from "@/employees/AttendanceSheet";
+import EmployeeTable from "@/components/employees/EmployeeTable";
+import AttendanceSheet from "@/components/employees/AttendanceSheet";
 // import EmployeeStats from "../components/EmployeeStats"; ← Lo activamos más adelante
 
 export default function EmployeesPage() {
