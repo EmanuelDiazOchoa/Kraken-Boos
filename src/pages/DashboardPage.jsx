@@ -1,7 +1,7 @@
 // src/pages/DashboardPage.jsx
 import React from "react";
-import DashboardCharts from "../components/DashboardCharts";
-import Card from "../components/Card";
+import DashboardCharts from "@/dashboard/DashboardCharts";
+import Card from "@/dashboard/Card";
 import {
   FaUser,
   FaTruck,
